@@ -197,6 +197,5 @@ public class ChangeBaseProgram {
         System.out.println("1.Convert form " + form + " to " + case1);
         System.out.println("2.Convert form " + form + " to " + case2);
         System.out.print("Enter your choice: ");
-        return DataInput.inputIntLimit(1, 2);
     }
 }
